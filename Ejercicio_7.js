@@ -8,7 +8,7 @@ if (nota >= 90 && nota <= 100) {
     console.log ("C");
 }else if( nota >=60 && nota<= 69){
     console.log("D")
-}else if ( nota <60 && nota > 0){
+}else if ( nota <60 && nota >= 0){
     console.log ("F")
 }else if(nota < 0 || nota >100 ){
     console.log ("nota invalida")
